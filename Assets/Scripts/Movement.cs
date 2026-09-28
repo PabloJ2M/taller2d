@@ -6,7 +6,7 @@ namespace Entity.Behaviour
 {
     public class Movement : MonoBehaviour
     {
-        [SerializeField] private float speed = 5f;
+        [SerializeField] private float speed = 10f;
         private Keyboard CurrentKey = Keyboard.current;
 
         private void Update()
