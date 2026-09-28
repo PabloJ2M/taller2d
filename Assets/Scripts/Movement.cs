@@ -14,6 +14,9 @@ namespace Entity.Behaviour
             if (CurrentKey.wKey.isPressed)
             {
                 transform.Translate(Vector3.up * speed * Time.deltaTime);
+            } else if (CurrentKey.dKey.isPressed)
+            {
+                transform.Translate(Vector3.right * speed * Time.deltaTime);
             }
         }
     }
